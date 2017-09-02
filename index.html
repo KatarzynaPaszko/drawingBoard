@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Canvas</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="selectors">
+    <h3>Wybierz szerokość oraz kolor linii: </h3>
+    <div>
+      <label for="spacing">Spacing:</label>
+      <input id="spacing" type="range"min="1" max="200" value="10">
+    </div>
+
+    <div>
+      <label for="base">Base Color</label>
+      <input id="base" type="color"value="#ffc600">
+    </div>
+    <h3>Wyczyść tablicę:</h3>
+    <button type="button" name="button" id="clearBoard">Clear board</button>
+
+  </div>
+
+  <canvas id="draw" width="800" height="800"></canvas>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>
